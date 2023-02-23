@@ -5,21 +5,21 @@ specifiers:
   '@babel/plugin-transform-runtime': ^7.10.4
   '@babel/preset-env': ^7.10.4
   '@babel/runtime-corejs3': ^7.10.4
-  '@mpxjs/api-proxy': ^2.8.0
+  '@mpxjs/api-proxy': ^2.8.8
   '@mpxjs/babel-plugin-inject-page-events': ^2.8.0
-  '@mpxjs/core': ^2.8.0
+  '@mpxjs/core': ^2.8.21
   '@mpxjs/eslint-config-ts': ^1.0.5
-  '@mpxjs/fetch': ^2.8.0
+  '@mpxjs/fetch': ^2.8.6
   '@mpxjs/mpx-cli-service': ^1.0.0
-  '@mpxjs/pinia': ^2.8.0
+  '@mpxjs/pinia': ^2.8.15
   '@mpxjs/size-report': ^2.8.0
-  '@mpxjs/store': ^2.8.0
-  '@mpxjs/utils': ^2.8.0
+  '@mpxjs/store': ^2.8.15
+  '@mpxjs/utils': ^2.8.15
   '@mpxjs/vue-cli-plugin-mpx': ^1.0.0
   '@mpxjs/vue-cli-plugin-mpx-eslint': ^1.0.0
   '@mpxjs/vue-cli-plugin-mpx-mp': ^1.0.0
   '@mpxjs/vue-cli-plugin-mpx-typescript': ^1.0.0
-  '@mpxjs/webpack-plugin': ^2.8.0
+  '@mpxjs/webpack-plugin': ^2.8.21
   '@vue/cli-service': ~5.0.0
   autoprefixer: ^10.2.4
   eslint: ^7.0.0
