@@ -1,5 +1,5 @@
 <template>
-  <view class="list">
+  <view wx:ref="listref" class="list">
     <view wx:for="{{listData}}" wx:key="*this">{{item}}</view>
   </view>
 </template>
@@ -10,6 +10,11 @@ import { createComponent } from '@mpxjs/core'
 createComponent({
   data: {
     listData: ['手机', '电视', '电脑']
+  },
+  lifetimes: {
+    ready() {
+      console.log('Refs: ', this.$refs)
+    }
   }
 })
 </script>
