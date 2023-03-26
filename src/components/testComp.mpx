@@ -1,0 +1,24 @@
+<template>
+  <view>
+    age: {{ age }}
+  </view>
+</template>
+
+<script lang="ts" setup>
+type ITest = {
+  age: number
+}
+const props = defineProps({
+  age: Number
+}) as ITest
+console.log(props.age)
+defineExpose({})
+</script>
+
+<script name="json">
+module.exports = {
+  component: true,
+  styleIsolation: 'apply-shared',
+  usingComponents: {}
+}
+</script>
