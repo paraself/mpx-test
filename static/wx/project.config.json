@@ -11,7 +11,8 @@
             "ignore": [],
             "disablePlugins": [],
             "outputPath": ""
-        }
+        },
+        "condition": false
     },
     "appid": "wx9ae398ec4b1a13bc",
     "projectname": "mpx-test",

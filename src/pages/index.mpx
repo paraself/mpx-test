@@ -1,5 +1,11 @@
 <template>
   <list></list>
+  <view wx:for="{{ items }}">
+    {{ item.name }}
+  </view>
+  <button bindtap="random">
+    变成随机数
+  </button>
 </template>
 
 <script lang="ts">
@@ -8,6 +14,26 @@ import { createPage } from '@mpxjs/core'
 createPage({
   onLoad() {
     //
+  },
+  data: {
+    items: [
+      {
+        name: 'A'
+      },
+      {
+        name: 'B'
+      },
+      {
+        name: 'C'
+      }
+    ]
+  },
+  methods: {
+    random() {
+      this.items.forEach(d => {
+        this.$set(d, 'name', Math.random())
+      })
+    }
   }
 })
 </script>
